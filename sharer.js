@@ -49,8 +49,9 @@ Sharer.prototype = {
             href: this.getValue('url'),
             app_id: this.getValue('fbid'),
             redirect_uri: this.getValue('redirect'),
-            quote: this.getValue('quote'),
-            hashtag: this.getValue('hashtag'),
+            // not working
+//            quote: this.getValue('quote'),
+//            hashtag: this.getValue('hashtag'),
           }
         },
         linkedin: {
